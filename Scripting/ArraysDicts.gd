@@ -28,3 +28,5 @@ func _run():
 	print(rings_of_power)
 	
 	print("==========") 
+	
+	# see notebook for further notes 01.29.2026
