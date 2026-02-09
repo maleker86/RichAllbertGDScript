@@ -44,7 +44,7 @@ func _run() -> void:
 	#print(legolas_race)
 	#print(gimli_race)
 	#print(Race)
-	#print(Race.keys()[gimli_race])
+	print(Race.keys()[gimli_race])
 	
 	
 	#var enemy_race: Race = Race.ORC
