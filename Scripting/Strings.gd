@@ -30,7 +30,13 @@ func _run() -> void:
 	var age: int = 20
 	var health: float = 12.4
 	var phrase: String = "You have health of %.2f" % health
+	var phrase_default: String = "You have health of %s" % health
+	
+	#my godot 4.4 editor !color the var inside the str :(
+	var phrase_m: String = "health: %.0f of age: %d" % [ health, age ]
 	print(phrase)
+	print(phrase_default)
+	print(phrase_m)
 	
 	#12:42
 	
